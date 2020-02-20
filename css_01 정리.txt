@@ -1,0 +1,47 @@
+0217 --- css ---
+
+#hi = hi 라는 아이디를 가지고 있는 녀석과 , 그녀석 밑에있는 모든녀석
+
+ul li {}= ul밑에 있는 li라는 모든 녀석들
+
+#select>li {} = select 라는 id 를 가진 녀석의 밑에 있는 li 라는 녀석들
+
+ul,ol {} = ul 과 ol 이라는 녀석들 (밑에있는 녀석들도 포함)
+
+id를 쓸때 #id명
+class를 쓸때 .class명
+
+=========================================================
+
+a:active  { color : red; } = 마우스를 클릭하고 있을때 = 레드
+a:hover           : blue;  = 마우스를 올려 놓았을때. = 파란색
+a:visited          : green; = 방문한 곳 = 초록색		
+a:link 	        : yellow; = 아직 클릭하지 않은 링크 방문하지 않은 곳 = 노란색
+
+=========================================================
+css (캐스캐이딩 cascading style sheet)
+우선순위 색상을 넣었을때 중복이되면 어떤것부터 실행이될까?!
+<style>
+ li{color:red;}
+#idsel{color:blue;}
+.classel{color:green;}
+</style>
+
+<style>
+ li{color:red;}
+#idsel{color:blue !important;}
+.classel{color:green;}
+</style>
+
+*우선순위를 임의로 정해주는 코드 !important; *  - 원하는 곳 가장 뒷쪽에 써준다.
+
+1순위. style attyibute <li style="color:black;">css</li> = 그자체
+2순위. id selector <li id-"idsel">css</li> = style 안에서
+3순위. class selector <li class="calsel">css</li> =style 안에서
+4순위. tag selector <li>css</li> = style 안에서
+
+========================================================
+
+조금 어려운 내용이긴 하지만.. 
+이제 px 이 아니라 rem을 써야됨 이건다시 공부하기
+font-size = 50px;  font-size 1rem;

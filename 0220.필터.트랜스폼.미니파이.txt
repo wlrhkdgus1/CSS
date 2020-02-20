@@ -1,0 +1,3 @@
+https://bennettfeely.com/image-effects/ 필터 시뮬레이션
+https://opentutorials.org/course/2418/13684 transform 시뮬레이션
+http://adam.id.au/clean-css-online/ = 코드경량화 (minify) 시켜주는 사이트

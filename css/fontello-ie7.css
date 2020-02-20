@@ -1,0 +1,33 @@
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'fontello';
+  font-style: normal;
+  font-weight: normal;
+ 
+  /* fix buttons height */
+  line-height: 1em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+}
+ 
+.icon-basket { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe800;&nbsp;'); }
+.icon-phone { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe801;&nbsp;'); }
+.icon-rss { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe802;&nbsp;'); }
+.icon-tint { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe803;&nbsp;'); }
+.icon-up-hand { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe804;&nbsp;'); }
+.icon-signal { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe805;&nbsp;'); }
+.icon-check { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe806;&nbsp;'); }
+.icon-key { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe807;&nbsp;'); }
+.icon-phone-squared { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf098;&nbsp;'); }
+.icon-certificate { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0a3;&nbsp;'); }
+.icon-gplus { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0d5;&nbsp;'); }
+.icon-coffee { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0f4;&nbsp;'); }
+.icon-food { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0f5;&nbsp;'); }
+.icon-beer { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0fc;&nbsp;'); }
+.icon-eraser { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf12d;&nbsp;'); }
+.icon-puzzle { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf12e;&nbsp;'); }
+.icon-bomb { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf1e2;&nbsp;'); }
+.icon-trash { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf1f8;&nbsp;'); }
+.icon-venus-double { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf226;&nbsp;'); }
+.icon-wikipedia-w { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf266;&nbsp;'); }
+.icon-black-tie { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf27e;&nbsp;'); }
